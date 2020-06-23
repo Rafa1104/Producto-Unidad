@@ -1,4 +1,4 @@
-# Producto-Unidad
+# TARJETAS DE DESARROLLO
 
 ## 1. PLANTEAMIENTO
 
@@ -141,9 +141,16 @@ Clasificacion de los pines:
 
 
 ## 5. DIAGRAMAS
-- **Diagrama de Bloques**
+#### **Diagrama de Bloques**
+- ***Arduino UNO***
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/Diagrama%20de%20bloques%20arduino.png)
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/Boton%20-%20LEDs.png)
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/Sensor%20-%20LEDs.png)
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/maestro-esclavo.jpg)
+- ***Mirco:bit***
 
-- **Diagrama UML. (casos de uso-clase)**
+- ***Raspberry Pi***
+
 - **Diagrama Electricós**
 - **Diagrama Esquemático**
 
@@ -163,11 +170,11 @@ Clasificacion de los pines:
 
 
 ## 7. MAPA DE VARIABLES
-| **VARIABLE** | **DESCRIPCIÓN** |
-| :---: | :---: |
-| | |
-| | |
-| | |
+| **VARIABLE** | **TIPO** | **DESCRIPCIÓN** |
+| :---: | :---: | :---: |
+| | | |
+| | | |
+| | | |
 
 ## 8.EXPLICACIÓN DEL CODIGO FUENTE
 ### ***ARDUINO UNO***
@@ -183,10 +190,22 @@ Clasificacion de los pines:
 
 
 ## 9. DESCRIPCIÓN DE PREREQUISITOS Y CONFIGURACIÓN
+Si queremos trabjar con las tarjetas de desarrollo de forma física, hay que tener en cuenta que la Raspberry Pi necesita una memoria microSD para lo cual nos ayuda a cargar el sistema opertaivo que nos va a servir para poder programar con python en el entorno del raspberry y se necesita conectar a un monitor, teclado y mouse para poder visualizar lo que estamos haciendo.
 
+En el Arduino no necesita un prerequisito o programa secundario, ya que la plcac cuenta con todo lo necesario para ejecutar los progrmas, pero si es necesario otros componentes dependiendo de lo que estemos desarrollando.
+
+Microbit es una placa que en si tiene una variasión de sensores que nos permite el desarrollo para diferentes cosas, como tambien para juegos, mientras que las otras dos placas no nos permiten una interacción total con la placa, microbit nos ayuda a desarrollar juegos para niños, con la utilización de las entradas que nos ofrece esto.
+
+En las plataformas para la simualcion no se necesita un prerequisito solo que tenga una conexión de internet en el caso de tinkercard y en la pagina de microbit. Para el Raspberry se necesita por otra parte instalar un emulador que nos permita ver el codigo y lo que se efectua.
 
 ## 10. APORTACIONES
+### ***ARDUINO UNO***
+- **Maestro-Esclavo**
 
+### ***MICRO:BIT***
+- **Melas' Heart**
+
+### ***RASPBERRY Pi***
 
 ## 11. CONCLUSIONES
 Se ha descrito todos los componentes electrónicos y conectores de las tarjetas de desarrollo: ARDUINO UNO, MICRO BIT, RASPBERRY PI mediante el uso de las siguientes plataformas que son: MICRO BIT, TINKER CAD y CREATED WITHCODE, para entender el lenguaje de programación empleado en la elaboración de aplicaciones de las tarjetas de desarrollo.
