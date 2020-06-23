@@ -16,6 +16,39 @@ Describir todos los componentes electrónicos y conectores de las tarjetas de de
 
 
 ## 3. ESTADO DEL ARTE
+#### ARDUINO
+Arduino fue inventado en el año 2005 por el entonces estudiante del instituto IVRAE Massimo Banzi, quien, en un principio, pensaba en hacer Arduino por una necesidad de aprendizaje para los estudiantes de computación y electrónica del mismo instituto, ya que en ese entonces, adquirir una placa de micro controladores eran bastante caro y no ofrecían el soporte adecuado; no obstante, nunca se imaginó que esta herramienta se llegaría a convertir en años más adelante en el líder mundial de tecnologías DIY (Do It Yourself). Inicialmente fue un proyecto creado no solo para economizar la creación de proyectos escolares dentro del instituto, si no que además, Banzi tenía la intención de ayudar a su escuela a evitar la quiebra de la misma con las ganancias que produciría vendiendo sus placas dentro del campus a un precio accesible (1 euro por unidad).
+
+El primer prototipo de Arduino fue fabricado en el instituto IVRAE. Inicialmente estaba basado en una simple placa de circuitos eléctricos, donde estaban conectados un micro controlador simple junto con resistencias de voltaje, además de que únicamente podían conectarse sensores simples como leds u otras resistencias, y es más, aún no contaba con el soporte de algún lenguaje de programación para manipularla.
+
+Años más tarde, se integró al equipo de Arduino Hernando Barragán, un estudiante de la Universidad de Colombia que se encontraba haciendo su tesis, y tras enterarse de este proyecto, contribuyó al desarrollo de un entorno para la programación del procesador de esta placa: Wiring, en colaboración con David Mellis, otro integrante del mismo instituto que Banzi, quien más adelante, mejoraría la interfaz de software.
+
+Tiempo después, se integro al "Team Arduino" el estudiante español David Cuartielles, experto en circuitos y computadoras, quien ayudó Banzi a mejorar la interfaz de hardware de esta placa, agregando los micro controladores necesarios para brindar soporte y memoria al lenguaje de programación para manipular esta plataforma.
+
+#### MICRO BIT
+El Micro Bit fue diseñado para alentar a los niños a participar activamente en la escritura de software para computadoras y construir cosas nuevas, en lugar de ser consumidores de medios. Fue diseñado para funcionar junto con otros sistemas, como el Raspberry Pi, basándose en el legado de la BBC con la BBC Micro para la informática en la educación. La BBC planeaba regalar la computadora a cada niño de 7 años (11 y 12 años) en Gran Bretaña a partir de octubre de 2015 (alrededor de 1 millón de dispositivos). Antes del lanzamiento, se puso a disposición un simulador en línea para ayudar a los educadores a prepararse, y algunos maestros debían recibir el dispositivo en septiembre de 2015. [2] Se planeó que el dispositivo esté a la venta en general a finales de 2015. Sin embargo, los problemas retrasaron el lanzamiento hasta el 22 de marzo de 2016. 
+
+La BBC tuvo la difícil decisión de elegir qué grupo de año escolar sería el primero en recibir los Micro Bits gratuitos, y el jefe de aprendizaje de la BBC dijo que "La razón por la que nos decantamos por el año siete [en lugar del año cinco] es que tuvo más impacto con ese grupo de edad ... estaban más interesados en usarlo fuera del aula ". 
+
+La planificación del proyecto comenzó en 2012 como parte del Programa de Alfabetización Informática de la BBC, y en el momento del lanzamiento en julio de 2015, la BBC había contratado a 29 socios para ayudar con la fabricación, diseño y distribución del dispositivo. La BBC ha dicho que la mayoría de los costos de desarrollo corren a cargo de los socios del proyecto.
+
+#### RASPBERRY PI
+En el 2006, los primeros diseños de Raspberry Pi se basaban en el microcontrolador Atmel ATmega644. Sus esquemas y el diseño del circuito impreso están disponibles para su descarga pública.
+
+En mayo de 2009, la fundación Raspberry Pi fue fundada en Caldecote, South Cambridgeshire, Reino Unido como una asociación caritativa que es regulada por la comisión de caridad de Inglaterra y Gales.
+
+El administrador de la fundación, Eben Upton, se puso en contacto con un grupo de profesores, académicos y entusiastas de la informática para crear un ordenador con la intención de animar a los niños a aprender informática como lo hizo en 1981 con el ordenador Acorn BBC Micro.
+
+El primer prototipo basado en ARM se montó en un módulo del mismo tamaño que una memoria USB. Tenía un puerto USB en un extremo y un puerto HDMI en el otro.
+En agosto de 2011, se fabricaron cincuenta placas alfa, que tenían las mismas características que el modelo B,21 pero eran un poco más grandes para integrar bien unas interfaces para depuración. En algunas demostraciones se podía ver la placa ejecutando el escritorio LXDE en Debian, Quake 3 a 1080p y vídeo Full HD H.264 a través de la salida HDMI.
+
+En octubre de 2011, el logotipo se seleccionó entre varios diseños enviados por miembros de la comunidad. Durante el mismo mes, se trabajó en una versión de desarrollo de RISC OS 523 y se hizo una demostración en público. 
+
+En diciembre de 2011, se ensamblaron y probaron 25 placas beta del modelo B de un total de 100 placas vacías.2526 El diagrama de componentes de las placas finales sería el mismo que el de esas placas beta. Durante las pruebas a las placas beta se encontró un error de diseño en los pines que suministraban alimentación a la CPU que sería arreglado en la versión final. Se hizo una demostración de la placa beta arrancando GNU, reproduciendo un tráiler de una película a 1080p y ejecutando el benchmark Rightware Samurai OpenGL ES.
+
+Durante la primera semana de diciembre de 2011, se pusieron a subasta diez placas en eBay.2930 Una de ellas fue comprada por una persona anónima y se donó al Centro para la Historía de la informática en Suffolk, Inglaterra. En total se consiguieron 16,336 £. La última placa, con número de serie No. 01 se vendió por 3.500 £.
+
+Debido al anticipado anuncio de puesta a la venta a final de febrero de 2012, la fundación sufrió colapso en sus servidores web debido a los refrescos de páginas desde los navegadores de gente interesada en la compra de la placa.
 
 
 ## 4. MARCO TEORIÓCO
@@ -162,10 +195,14 @@ Clasificacion de los pines:
 ![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/diagrama%20micro%202.png)
 
 ### ***Raspberry Pi***
-- **Diagrama Esquemático**
+#### *Ejemplo 1*
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/ejemplo1.jpeg)
 
+#### *Ejemplo 2*
 
-
+#### *Aporte*
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/Aporte1.jpeg)
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/aporte2.jpeg)
 ## 6. LISTA DE COMPONENTES
 | **COMPONENTE** | **DESCRIPCIÓN** |
 | :---: | :---: |
@@ -244,7 +281,11 @@ Al aplast el boton *A* se suma 1 al valor que se encuetre en el registro; al apl
 Para esta placa se uso un simulador de python llamada [*Create with code*](https://create.withcode.uk/) que es una herramienta gratuita que te permite escribir, ejecutar, depurar y compartir programas de Python en tu navegador web. Y no necesita descargar ni instalar nada. 
 Los programas de Python no pueden acceder a sus archivos o dañar su computadora, por lo que es una forma segura de aprender a crear con código.
 
+- **Ejemplo 1**
+El progrma detecta cundo un pulsaodr ha sido preionado y como respuesta a esta accion prende un LED
 
+- **Ejemplo 2**
+El programa muestra en el display la cantidad de veces que el pulsador ha sido presionado
 
 ## 9. DESCRIPCIÓN DE PREREQUISITOS Y CONFIGURACIÓN
 Si queremos trabjar con las tarjetas de desarrollo de forma física, hay que tener en cuenta que la Raspberry Pi necesita una memoria microSD para lo cual nos ayuda a cargar el sistema opertaivo que nos va a servir para poder programar con python en el entorno del raspberry y se necesita conectar a un monitor, teclado y mouse para poder visualizar lo que estamos haciendo.
@@ -265,6 +306,8 @@ Este programa muestra el uso de dos placas Arduino de diferentes modelos, siendo
 Este programa hace uso de las frecuencias para poder producir un sonido en respuesta la valor de entrada del boton que se le asigne, se usa la matriz de leds para mostras en cadena el nombre de una persona y nosotros podemos esocger entre dos melodias con los diferentes botonos que tiene la placa.
 
 ### ***RASPBERRY Pi***
+Simula la señal emitida por un sensor concetado con la placa de manera serial 
+
 
 ## 11. CONCLUSIONES
 Se ha descrito todos los componentes electrónicos y conectores de las tarjetas de desarrollo: ARDUINO UNO, MICRO BIT, RASPBERRY PI mediante el uso de las siguientes plataformas que son: MICRO BIT, TINKER CAD y CREATED WITHCODE, para entender el lenguaje de programación empleado en la elaboración de aplicaciones de las tarjetas de desarrollo.
@@ -291,9 +334,5 @@ international conference on electronics, computer and computation (ICECCO) (pp. 
 
 - Ball, T., Protzenko, J., Bishop, J., Moskal, M., de Halleux, J., Braun, M., ... & Riley, C. (2016, May). Microsoft touch develop and the BBC micro: bit. In 2016 IEEE/ACM 38th International Conference on Software Engineering Companion (ICSE-C) (pp. 637-640). IEEE.
 
-- Pi, R. (2015). Raspberry pi 3 model b. online].(https://www.raspberrypi.org
-
-
-## 15. ANEXOS
-### 15.1 Manual de Usuario
+- Pi, R. (2015). Raspberry pi 3 model b. online].(https://www.raspberrypi.org)
 
