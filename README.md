@@ -214,10 +214,16 @@ Los LEDs estan en constantemente parpadeando en un intervalo de tiempo estableci
 
 - **SENSOR-LED**
 Para este programa se decidió realizar una simulación a escala de lo que trata domótica pero en algo snecillo que es la automatización del sensido y apagado de la luz
+
+
 ### ***MICRO:BIT***
 Para la simulación de microbit se utilizó una de las herramienta que la pagina nos ofrece como [*Makecode Editor*](https://makecode.microbit.org/), para esta se usa 3 diferentes tipos de lenguajes de programación, en bloques, en javascript y en python; micro:bit ha demostrado que es una placa completa y facil de programar.
 - **CONTADOR DE PASOS**
+Para hacer uso de los sensores y matriz 5x5 de leds que tiene esta placa se decidio realizar un pequeño programa que cuenta los pasos que una persona ha realizado, cada paso que una persona realiza, agita la placa, mandando una señal que la utlizamos para contar, es decir que cada vez que de un paso se le puede ver en la matriz de le leds como un numero. al aplastar los dos botones a y b el programa borra los registros previos y lo vuelven a un valor de 0. Luego de hacer el reseteo el programa sigue funcionando que cada vez que se de un paso se le sume 1 al valor previo.
+
 - **RESGISTRO**
+Este programa llamado registro guardo un valor previo y con la ayuda de los botones se le puede sumar 1 o restar 1 y al presionar los dos botones se tiene un valor 0.
+Al aplast el boton *A* se suma 1 al valor que se encuetre en el registro; al aplastar *B* se le resta 1 al valor guardado en la memoria, cada numero se lo visualiza en la matriz de leds, no importa si se optengas valores negativos como -1, -2, etc.
 
 ### ***RASPBERRY Pi***
 Para esta placa se uso un simulador de python llamada [*Create with code*](https://create.withcode.uk/) que es una herramienta gratuita que te permite escribir, ejecutar, depurar y compartir programas de Python en tu navegador web. Y no necesita descargar ni instalar nada. 
@@ -237,9 +243,11 @@ En las plataformas para la simualcion no se necesita un prerequisito solo que te
 ## 10. APORTACIONES
 ### ***ARDUINO UNO***
 - **Maestro-Esclavo**
+Este programa muestra el uso de dos placas Arduino de diferentes modelos, siendo el ***Arduino MEGA*** el maestro y el ***Arduino UNO*** el esclavo; se lo llama maestro-esclavo por que el Arduino maestro manda una orden a la arduino esclavo para que la ejecute, es una forma util de realizar diferentes acciones con diferentes arduinos y se optimiza el uso de cableado, taambien os datos recibidos se obtienen de uno solo que es el maestro, ya que los esclavos mandan los datos al maestro y de esta forma se pueden ejecutar diferentes acciones desde una cabeza, en vez de mandar la acción a cada uno por separado.
 
 ### ***MICRO:BIT***
 - **Melas' Heart**
+Este programa hace uso de las frecuencias para poder producir un sonido en respuesta la valor de entrada del boton que se le asigne, se usa la matriz de leds para mostras en cadena el nombre de una persona y nosotros podemos esocger entre dos melodias con los diferentes botonos que tiene la placa.
 
 ### ***RASPBERRY Pi***
 
@@ -252,7 +260,7 @@ Se explico el lenguaje de programación empleado para el desarrollo de aplicacio
 
 
 ## 12. RECOMENDACIONES
-
+- 
 
 ## 13. CRONOGRAMA
 
