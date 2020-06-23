@@ -44,6 +44,7 @@
 
 ## 13. CRONOGRAMA
 
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/Cronograma.jpeg)
 
 ## 14. BIBLIOGRAFIA
 
