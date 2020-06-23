@@ -1,6 +1,8 @@
 # TARJETAS DE DESARROLLO
 
 ## 1. PLANTEAMIENTO
+Con el fin de aprender y enteder acerca de las tarjetas de desarrollo actualmente conocidas por todo el mundo como las placas de Arduino y Raspberry Pi, con un analizis a una placa no tan conocida como la micro:bit que demuestra ser prometedora a lo que es una placa con diferentes sensores para diferentes situaciones.
+Por lo cual existe la necesidad de mantenerse al día en estas tendencias.
 
 
 ## 2. OBJETIVOS
@@ -179,22 +181,47 @@ Clasificacion de los pines:
 
 
 ## 7. MAPA DE VARIABLES
+#### *ARDUINO*
 | **VARIABLE** | **TIPO** | **DESCRIPCIÓN** |
 | :---: | :---: | :---: |
 | | | |
 | | | |
 | | | |
 
+#### *MICROBIT*
+| **VARIABLE** | **TIPO** | **DESCRIPCIÓN** |
+| :---: | :---: | :---: |
+| | | |
+| | | |
+| | | |
+
+#### *RASPBERRY Pi*
+| **VARIABLE** | **TIPO** | **DESCRIPCIÓN** |
+| :---: | :---: | :---: |
+| | | |
+| | | |
+| | | |
+
+
 ## 8.EXPLICACIÓN DEL CODIGO FUENTE
 ### ***ARDUINO UNO***
-- **BOTON-LED**
-- **FOTORESISTENCIA-LED**
+Para el desarrollo de los programas de Arduino se la realizó de dos formas, la primera es usando el programa de Arduino que instalamos en nuestra compuadora, la otra forma es en [*Tinkercard*](https://www.tinkercad.com/) que es una plataforma grtuita que nos ayuda a la simulacion del Arduino UNO, entre otras cosas como el diseño 3D o simulacion de cicuitos,para la programción en *Tinkercard* puedes hacerlo por medio de bloques si es que aun no se tiene muy claro el lenguaje de programación que emplea Arduino, o puedes hacerlo en texto si ya se comprende mejor los comandos o instrucciones que tiene Arduino.
 
+- **BOTON-LED**
+Este programa reicibe la señal que manda el pulsador para que se realice una acción de salida.
+
+Los LEDs estan en constantemente parpadeando en un intervalo de tiempo establecido en milisegundo de prendido y apagado, al momento que se mantiene pulsado el boton los LEDs cambain de secuecia y se comeniezan a encender uno tras el otro y parpadear de forma rapida por una cantidad de veces previamente establecida.
+
+- **SENSOR-LED**
+Para este programa se decidió realizar una simulación a escala de lo que trata domótica pero en algo snecillo que es la automatización del sensido y apagado de la luz
 ### ***MICRO:BIT***
+Para la simulación de microbit se utilizó una de las herramienta que la pagina nos ofrece como [*Makecode Editor*](https://makecode.microbit.org/), para esta se usa 3 diferentes tipos de lenguajes de programación, en bloques, en javascript y en python; micro:bit ha demostrado que es una placa completa y facil de programar.
 - **CONTADOR DE PASOS**
 - **RESGISTRO**
 
 ### ***RASPBERRY Pi***
+Para esta placa se uso un simulador de python llamada [*Create with code*](https://create.withcode.uk/) que es una herramienta gratuita que te permite escribir, ejecutar, depurar y compartir programas de Python en tu navegador web. Y no necesita descargar ni instalar nada. 
+Los programas de Python no pueden acceder a sus archivos o dañar su computadora, por lo que es una forma segura de aprender a crear con código.
 
 
 
@@ -239,7 +266,7 @@ international conference on electronics, computer and computation (ICECCO) (pp. 
 
 - Ball, T., Protzenko, J., Bishop, J., Moskal, M., de Halleux, J., Braun, M., ... & Riley, C. (2016, May). Microsoft touch develop and the BBC micro: bit. In 2016 IEEE/ACM 38th International Conference on Software Engineering Companion (ICSE-C) (pp. 637-640). IEEE.
 
-- Pi, R. (2015). Raspberry pi 3 model b. online].(https://www. raspberrypi. org.
+- Pi, R. (2015). Raspberry pi 3 model b. online].(https://www.raspberrypi.org
 
 
 ## 15. ANEXOS
