@@ -141,18 +141,27 @@ Clasificacion de los pines:
 
 
 ## 5. DIAGRAMAS
-#### **Diagrama de Bloques**
-- ***Arduino UNO***
-![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/Diagrama%20de%20bloques%20arduino.png)
-![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/Boton%20-%20LEDs.png)
-![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/Sensor%20-%20LEDs.png)
-![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/maestro-esclavo.jpg)
-- ***Mirco:bit***
-
-- ***Raspberry Pi***
-
-- **Diagrama Electricós**
+### ***Arduino UNO***
 - **Diagrama Esquemático**
+#### ***Boton-LED***
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/Boton%20-%20LEDs.png)
+#### ***Sensor-LED***
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/Sensor%20-%20LEDs.png)
+#### ***Maestro-Esclavo***
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/maestro-esclavo.jpg)
+
+### ***Mirco:bit***
+- **Diagrama Esquemático**
+#### *Contador de Pasos*
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/diagrama%20micro.png)
+#### *Registro*
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/diagrama%20micro.png)
+#### *Mela's Heart*
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/diagrama%20micro%202.png)
+
+### ***Raspberry Pi***
+- **Diagrama Esquemático**
+
 
 
 ## 6. LISTA DE COMPONENTES
