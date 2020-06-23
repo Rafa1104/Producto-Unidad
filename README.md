@@ -234,11 +234,11 @@ Los programas de Python no pueden acceder a sus archivos o dañar su computadora
 ## 9. DESCRIPCIÓN DE PREREQUISITOS Y CONFIGURACIÓN
 Si queremos trabjar con las tarjetas de desarrollo de forma física, hay que tener en cuenta que la Raspberry Pi necesita una memoria microSD para lo cual nos ayuda a cargar el sistema opertaivo que nos va a servir para poder programar con python en el entorno del raspberry y se necesita conectar a un monitor, teclado y mouse para poder visualizar lo que estamos haciendo.
 
-En el Arduino no necesita un prerequisito o programa secundario, ya que la plcac cuenta con todo lo necesario para ejecutar los progrmas, pero si es necesario otros componentes dependiendo de lo que estemos desarrollando.
+En el Arduino no necesita un prerequisito o programa secundario, ya que la placa cuenta con todo lo necesario para ejecutar los programas, pero si es necesario otros componentes dependiendo de lo que estemos desarrollando.
 
-Microbit es una placa que en si tiene una variasión de sensores que nos permite el desarrollo para diferentes cosas, como tambien para juegos, mientras que las otras dos placas no nos permiten una interacción total con la placa, microbit nos ayuda a desarrollar juegos para niños, con la utilización de las entradas que nos ofrece esto.
+Microbit es una placa que en si tiene una variación de sensores que nos permite el desarrollo para diferentes cosas, como tambien para juegos, mientras que las otras dos placas no nos permiten una interacción total con la placa, microbit nos ayuda a desarrollar juegos para niños, con la utilización de las entradas que nos ofrece esto.
 
-En las plataformas para la simualcion no se necesita un prerequisito solo que tenga una conexión de internet en el caso de tinkercard y en la pagina de microbit. Para el Raspberry se necesita por otra parte instalar un emulador que nos permita ver el codigo y lo que se efectua.
+En las plataformas para la simulacion no se necesita un prerequisito solo que tenga una conexión de internet en el caso de tinkercard y en la pagina de microbit. Para el Raspberry se necesita por otra parte instalar un emulador que nos permita ver el codigo y lo que se efectua.
 
 ## 10. APORTACIONES
 ### ***ARDUINO UNO***
