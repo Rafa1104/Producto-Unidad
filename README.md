@@ -184,9 +184,12 @@ Clasificacion de los pines:
 #### *ARDUINO*
 | **VARIABLE** | **TIPO** | **DESCRIPCIÓN** |
 | :---: | :---: | :---: |
-| | | |
-| | | |
-| | | |
+| button | const int | declara el pin A3 como entrada de una señal Analoga|
+| pin1 | const int | declara al pin 3 como salida del LED |
+| pin2| const int  | declara al pin 4 como salida del LED |
+| pin3 | const int | declara al pin 5 como salida del LED |
+| buttonState | int | almacena el esatado del pulsado físico |
+| variable | int | tiene un valor entero |
 
 #### *MICROBIT*
 | **VARIABLE** | **TIPO** | **DESCRIPCIÓN** |
