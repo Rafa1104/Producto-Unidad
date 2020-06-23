@@ -198,9 +198,11 @@ Clasificacion de los pines:
 #### *RASPBERRY Pi*
 | **VARIABLE** | **TIPO** | **DESCRIPCIÓN** |
 | :---: | :---: | :---: |
-| | | |
-| | | |
-| | | |
+| button | int | Contiene el numero de pin fisico usado para el pulsador |
+| led | int | Contiene el numero de pin fisico usado para el led |
+| button |int | Contiene el numero de pin fisico usado para el pulsador |
+| cont | int | Almacena la cantidad de veces que el boton ha sido presionado |
+| senalA | int | Almacena un valor aleatorio generado entre 0 y 255 |
 
 
 ## 8.EXPLICACIÓN DEL CODIGO FUENTE
@@ -213,7 +215,9 @@ Este programa reicibe la señal que manda el pulsador para que se realice una ac
 Los LEDs estan en constantemente parpadeando en un intervalo de tiempo establecido en milisegundo de prendido y apagado, al momento que se mantiene pulsado el boton los LEDs cambain de secuecia y se comeniezan a encender uno tras el otro y parpadear de forma rapida por una cantidad de veces previamente establecida.
 
 - **SENSOR-LED**
-Para este programa se decidió realizar una simulación a escala de lo que trata domótica pero en algo snecillo que es la automatización del sensido y apagado de la luz
+Para este programa se decidió realizar una simulación a escala de lo que trata domótica pero de forma básica que es la automatización del encendido y apagado de la luz.
+Esto quiere decir que cuando el sensor detectar que se esta oscurenciendo manda una señal a los LEDs para que se prendar y cuando el sensor ya detecta luz los LEDs se apagan automaticamente.
+Esto es un ejemplo claro del pricipio de la domotico, con el uso de sensores como entradas y los leds como salidas.
 
 
 ### ***MICRO:BIT***
@@ -221,7 +225,7 @@ Para la simulación de microbit se utilizó una de las herramienta que la pagina
 - **CONTADOR DE PASOS**
 Para hacer uso de los sensores y matriz 5x5 de leds que tiene esta placa se decidio realizar un pequeño programa que cuenta los pasos que una persona ha realizado, cada paso que una persona realiza, agita la placa, mandando una señal que la utlizamos para contar, es decir que cada vez que de un paso se le puede ver en la matriz de le leds como un numero. al aplastar los dos botones a y b el programa borra los registros previos y lo vuelven a un valor de 0. Luego de hacer el reseteo el programa sigue funcionando que cada vez que se de un paso se le sume 1 al valor previo.
 
-- **RESGISTRO**
+- **REGISTRO**
 Este programa llamado registro guardo un valor previo y con la ayuda de los botones se le puede sumar 1 o restar 1 y al presionar los dos botones se tiene un valor 0.
 Al aplast el boton *A* se suma 1 al valor que se encuetre en el registro; al aplastar *B* se le resta 1 al valor guardado en la memoria, cada numero se lo visualiza en la matriz de leds, no importa si se optengas valores negativos como -1, -2, etc.
 
@@ -234,11 +238,11 @@ Los programas de Python no pueden acceder a sus archivos o dañar su computadora
 ## 9. DESCRIPCIÓN DE PREREQUISITOS Y CONFIGURACIÓN
 Si queremos trabjar con las tarjetas de desarrollo de forma física, hay que tener en cuenta que la Raspberry Pi necesita una memoria microSD para lo cual nos ayuda a cargar el sistema opertaivo que nos va a servir para poder programar con python en el entorno del raspberry y se necesita conectar a un monitor, teclado y mouse para poder visualizar lo que estamos haciendo.
 
-En el Arduino no necesita un prerequisito o programa secundario, ya que la placa cuenta con todo lo necesario para ejecutar los programas, pero si es necesario otros componentes dependiendo de lo que estemos desarrollando.
+En el Arduino no necesita un prerequisito o programa secundario, ya que la plcac cuenta con todo lo necesario para ejecutar los progrmas, pero si es necesario otros componentes dependiendo de lo que estemos desarrollando.
 
-Microbit es una placa que en si tiene una variación de sensores que nos permite el desarrollo para diferentes cosas, como tambien para juegos, mientras que las otras dos placas no nos permiten una interacción total con la placa, microbit nos ayuda a desarrollar juegos para niños, con la utilización de las entradas que nos ofrece esto.
+Microbit es una placa que en si tiene una variasión de sensores que nos permite el desarrollo para diferentes cosas, como tambien para juegos, mientras que las otras dos placas no nos permiten una interacción total con la placa, microbit nos ayuda a desarrollar juegos para niños, con la utilización de las entradas que nos ofrece esto.
 
-En las plataformas para la simulacion no se necesita un prerequisito solo que tenga una conexión de internet en el caso de tinkercard y en la pagina de microbit. Para el Raspberry se necesita por otra parte instalar un emulador que nos permita ver el codigo y lo que se efectua.
+En las plataformas para la simualcion no se necesita un prerequisito solo que tenga una conexión de internet en el caso de tinkercard y en la pagina de microbit. Para el Raspberry se necesita por otra parte instalar un emulador que nos permita ver el codigo y lo que se efectua.
 
 ## 10. APORTACIONES
 ### ***ARDUINO UNO***
@@ -260,7 +264,7 @@ Se explico el lenguaje de programación empleado para el desarrollo de aplicacio
 
 
 ## 12. RECOMENDACIONES
-- 
+- Las recomendaciones para el uso de estas tarjetas, es que s
 
 ## 13. CRONOGRAMA
 
