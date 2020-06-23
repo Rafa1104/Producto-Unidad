@@ -201,9 +201,9 @@ Clasificacion de los pines:
 #### *MICROBIT*
 | **VARIABLE** | **TIPO** | **DESCRIPCIÓN** |
 | :---: | :---: | :---: |
-| | | |
-| | | |
-| | | |
+| pasos  | global int | almacena la cantidad de sacudidas (pasos) que detecta micro:bit |
+| registro | global int | almacena los valores generados por los botones A y B |
+
 
 #### *RASPBERRY Pi*
 | **VARIABLE** | **TIPO** | **DESCRIPCIÓN** |
