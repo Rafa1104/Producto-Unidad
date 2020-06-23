@@ -1,1 +1,0 @@
-Los archivos con extensión *.hex* son para enviar directo al Microbit, por lo tanto no se lo pueden visualizar y solo se podra enviar las instrucciones al Microbit en físico.
