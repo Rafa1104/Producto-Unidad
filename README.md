@@ -188,8 +188,15 @@ Clasificacion de los pines:
 | pin1 | const int | declara al pin 3 como salida del LED |
 | pin2| const int  | declara al pin 4 como salida del LED |
 | pin3 | const int | declara al pin 5 como salida del LED |
-| buttonState | int | almacena el esatado del pulsado físico |
+| buttonState | int | almacena el estado del pulsado físico |
 | variable | int | tiene un valor entero |
+| sensor | int | declara al pin A5 como entrada analago de la fotoresistencia |
+| led_1 | int | declara al pin pwm 3 como salida del LED |
+| led_2 | int | declara al pin pwm 5 como salida del LED |
+| led_3 | int | declara al pin pwm 6 como salida del LED |
+| Sensor_Value | int | almacena el estado de la fotoresistencua |
+| level | int | nivel de luz mapeado desde la lectura del sensor |
+
 
 #### *MICROBIT*
 | **VARIABLE** | **TIPO** | **DESCRIPCIÓN** |
