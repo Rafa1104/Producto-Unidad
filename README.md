@@ -199,10 +199,13 @@ Clasificacion de los pines:
 ![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/ejemplo1.jpeg)
 
 #### *Ejemplo 2*
+![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/Ejemplo%202.jpeg)
 
 #### *Aporte*
 ![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/Aporte1.jpeg)
 ![](https://github.com/Rafa1104/Producto-Unidad/blob/master/img/aporte2.jpeg)
+
+
 ## 6. LISTA DE COMPONENTES
 | **COMPONENTE** | **DESCRIPCIÓN** |
 | :---: | :---: |
