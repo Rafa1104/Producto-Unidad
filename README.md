@@ -267,7 +267,9 @@ Se explico el lenguaje de programación empleado para el desarrollo de aplicacio
 
 
 ## 12. RECOMENDACIONES
-- Las recomendaciones para el uso de estas tarjetas, es que s
+- Tener conocimientos básicos de electrónica y electricidad para las conexiones residenciales, considerando que hacemos usos dispositivos móviles con plataforma Android, es importante tener conocimientos de programación en lenguaje java y lenguaje C, para el desarrollo de la lógica de encendido y apagado de las luces que interpretara la placa Arduino.
+Hay que tener mucha precaución con la temperatura de la raspberry pi debido a que si sufre un sobre calentamiento puede afectar en el funcionamiento del mismo y los componentes se verán afectados
+
 
 ## 13. CRONOGRAMA
 
